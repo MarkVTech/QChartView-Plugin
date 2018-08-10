@@ -74,7 +74,7 @@ QString QChartViewPlugin::name() const
 
 QString QChartViewPlugin::group() const
 {
-    return QLatin1String("");
+    return QLatin1String("Display Widgets");
 }
 
 QIcon QChartViewPlugin::icon() const
@@ -99,7 +99,7 @@ bool QChartViewPlugin::isContainer() const
 
 QString QChartViewPlugin::domXml() const
 {
-    return QLatin1String("<widget class=\"QChartView\" name=\"qChartView\">\n</widget>\n");
+    return QLatin1String("<widget class=\"QtCharts::QChartView\" name=\"qChartView\">\n</widget>\n");
 }
 
 QString QChartViewPlugin::includeFile() const
