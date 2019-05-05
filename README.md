@@ -19,3 +19,6 @@ Copy the files to
   <Qt install path>/Tools/QtCreator/bin
   
 you can hit the Refresh button on the About Qt Designer Plugins.  If that doesn't work, then maybe you built the plugin with the wrong compiler.  
+
+
+UPDATE (May 5, 2019) With Qt Creator 5.8, I was unable to get VS 2015 32-bit because Microsoft locks away old releases.  I hate that.  I was able to use VS 2017 Community however.  
